@@ -15,7 +15,8 @@ exports.register = function (plugin, options, next) {
             }
         },
         handler: function (request, reply) {
-            var person = persons.filter(function (person) { return person.id === parseInt(request.params.id); })[0];
+            var id      = parseInt(request.params.id),
+                person  = persons.filter(function (person) { return person.id === id; })[0];
 
             if(person) {
                 return reply(person);
