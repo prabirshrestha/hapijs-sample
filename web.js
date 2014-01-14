@@ -18,6 +18,6 @@ server.pack.require(plugins, function (err) {
     if(err) throw err;
     server.start(function (err) {
         if(err) throw err;
-        console.log('server started at ' + server.info.uri)
+        console.log('server started at ' + server.info.uri);
     });
 });
