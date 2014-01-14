@@ -2,13 +2,13 @@
   "name": "hapijs-example",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "hapi": "git+https://github.com/spumko/hapi.git"
+    "hapi": "~2.0.0-preview"
   }
 }
