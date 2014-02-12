@@ -9,6 +9,6 @@
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "hapi": "~2.0.0-preview"
+    "hapi": "~2.2.0"
   }
 }
