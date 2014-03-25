@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "hapi": "~2.2.0"
+    "hapi": "^3.0.2"
   }
 }
