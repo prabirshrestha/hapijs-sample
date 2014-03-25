@@ -10,5 +10,13 @@
   "license": "MIT",
   "dependencies": {
     "hapi": "^3.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "should": "^3.2.0-beta1",
+    "supertest": "^0.10.0",
+    "wd": "^0.2.13",
+    "chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1"
   }
 }
